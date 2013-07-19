@@ -6,6 +6,9 @@ test:
 test-continuous:
 	./sbt ~test
 
+run:
+	./sbt run
+
 console:
 	./sbt console
 
