@@ -6,6 +6,9 @@ test:
 test-continuous:
 	./sbt ~test
 
+console:
+	./sbt console
+
 idea:
 	./sbt gen-idea
 
